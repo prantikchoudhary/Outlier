@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// This program is able to handle all the edge cases of the Text Analyzing prompt for Lemur Astrologer
 public class TextAnalyzerBetter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
