@@ -1,0 +1,8 @@
+plt.figure(figsize=(12, 6))
+plt.plot(y_test.values, label='Actual Demand', color='blue')
+plt.plot(y_test_pred, label='Predicted Demand', color='orange', linestyle='--')
+plt.xlabel('Observations')
+plt.ylabel('Taxi Demand')
+plt.title('Actual vs. Predicted Taxi Demand')
+plt.legend()
+plt.show()
