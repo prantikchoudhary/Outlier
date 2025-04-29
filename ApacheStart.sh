@@ -1,3 +1,5 @@
+#used to start the apache tomcat server for cloud computing class
+
 #!/bin/bash
 dnf install -y httpd
 systemctl enable httpd
